@@ -1,0 +1,23 @@
+@import '../../styles/settings.scss';
+
+.columnForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.input {
+  min-width: 200px;
+  background: #fff;
+  border: 1px solid #cacfd9;
+  padding: 12px 18px;
+  margin: 0 12px 12px 12px;
+  border-radius: 5px;
+}
+
+@media (max-width: 700px) {
+  .columnForm {
+    flex-direction: column;
+  }
+}
