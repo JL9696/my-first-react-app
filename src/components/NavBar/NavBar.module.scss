@@ -28,5 +28,9 @@ nav {
       color: $color-light;
       padding: 5px 20px;
     }
+
+    .linkActive {
+      color: $color-warning;
+    }
   }
 }
