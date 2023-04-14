@@ -1,6 +1,7 @@
 @import '../../styles/settings.scss';
 
-.card {
+
+.cards {
   position: relative;
   background: $color-light;
   border: 1px solid lighten($color-dark, 60%);
@@ -10,4 +11,23 @@
   display: flex;
   justify-content: space-between;
   font-weight: bold;
+}
+
+.icon::before {
+  padding-right: $base-size;
+  vertical-align: middle;
+  position: relative;
+}
+
+.button {
+  border: none;
+    cursor: pointer;
+    background-color: white;
+    font-size: 16px
+
+}
+
+.isActive {
+  opacity: 1;
+  color: rgb(235, 198, 86);
 }
