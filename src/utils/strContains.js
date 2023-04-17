@@ -1,1 +1,5 @@
-export const strContains = ( cardTitle, searchInput ) => cardTitle.toLowerCase().includes(searchInput.toLowerCase());
+const strContains = (a, b) => {
+    return a.toLowerCase().includes(b.toLowerCase());
+}; 
+
+export default strContains;
